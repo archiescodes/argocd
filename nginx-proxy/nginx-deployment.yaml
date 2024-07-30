@@ -3,7 +3,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: nginx-proxy
-  namespace: nginx
+  namespace: nginx-proxy
 spec:
   replicas: 3
   selector:
